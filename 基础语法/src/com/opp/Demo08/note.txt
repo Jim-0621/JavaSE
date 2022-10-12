@@ -1,0 +1,13 @@
+System.out.println(X instanceof Y);
+X和Y如果有父子关系则能编译通过
+如果在一条线上就返回结果true
+    object->string
+    object->person->student
+    object->person->teacher
+
+1.父类的引用指向子类的对象
+2.把子类转换为父类，向上转型：可能会丢失一些方法
+3.把父类转换为子类，向下转型：强制转换
+4.方便方法的调用，减少重复的代码
+
+抽象：封装、继承、多态！
